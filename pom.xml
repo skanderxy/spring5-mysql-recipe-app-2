@@ -172,9 +172,8 @@
 					</execution>
 				</executions>
 				<configuration>
-					<systemPropertyVariables>
-						<jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
-					</systemPropertyVariables>
+					<destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
+					<dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</dataFile>
 				</configuration>
 			</plugin>
 		</plugins>
